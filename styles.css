@@ -164,10 +164,10 @@ details[open] summary {
 
 
 .packet-list li[data-direction="client_to_server"] a::after {
-  background-image: url("serverbound.png"); 
+  background-image: url("https://i.imgur.com/1XSszw8.png"); 
 }
 .packet-list li[data-direction="server_to_client"] a::after {
-  background-image: url("clientbound.png"); 
+  background-image: url("https://i.imgur.com/wVbY7lB.png"); 
 }
 
 
