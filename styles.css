@@ -143,3 +143,31 @@ details[open] summary {
     flex-direction: column;
     font-size: 1rem;
 }
+
+
+.packet-list li[data-direction] a {
+  position: relative;
+  padding-left: 1.1rem;
+}
+.packet-list li[data-direction] a::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0.3em;
+  width: 0.8rem;
+  height: 0.8rem;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  opacity: 0.9;
+}
+
+
+.packet-list li[data-direction="client_to_server"] a::after {
+  background-image: url("serverbound.png"); 
+}
+.packet-list li[data-direction="server_to_client"] a::after {
+  background-image: url("clientbound.png"); 
+}
+
+
